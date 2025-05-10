@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import CountryCard from '../components/CountryCard'
 import SkeletonCard from '../components/SkeletonCard'
-import StatsDashboard from '../components/StatsDashboard'
+// import StatsDashboard from '../components/StatsDashboard'
 import {
   getAllCountries,
   searchCountriesByName,
@@ -114,7 +114,7 @@ export default function Home() {
         </section>
 
         {/* Global Stats */}
-        <StatsDashboard />
+{/*         <StatsDashboard /> */}
 
         {/* All Countries (horizontal scroll) */}
         <section className="mt-12">
